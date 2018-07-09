@@ -34,6 +34,9 @@ public class LinkedList {
     }
     // delete integer at last index
     public void deleteLast(){
+        if(firstNode == null){
+            throw new NullPointerException();
+        }
 
     }
     // return the count(size) of the list
